@@ -1,0 +1,20 @@
+{
+  "name": "Kitchen Display",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ron de Leon <ronverbal732@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}
