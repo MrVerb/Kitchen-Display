@@ -1,15 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 <head>
-  <link href="dist/assets/css/style.css" type="text/css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YTC Kitchen Display</title>
+  <link rel="stylesheet" href="dist/assets/css/style.css" />
+  <script src="dist/assets/js/modernizr.min.js"></script>
+  <script src="dist/assets/js/script.js"></script>
 </head>
 
 
 <body>
-  <p>Digital Chalkboard</p>
+  <header>
+    <nav>
+      <p>Family Dashboard</p>
+      <!--Add buttons to initiate auth sequence and sign out-->
+      <button id="authorize_button" style="display: none;">Authorize</button>
+      <button id="signout_button" style="display: none;">Sign Out</button>
+    </nav>
+  </header>
 
-  <!--Add buttons to initiate auth sequence and sign out-->
-  <button id="authorize_button" style="display: none;">Authorize</button>
-  <button id="signout_button" style="display: none;">Sign Out</button>
+
+
 <!-- <iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=l31k4tuaqbn7t65m4krvva1gao%40group.calendar.google.com&amp;color=%23182C57&amp;src=nfl_20_New%2BYork%2BJets%23sports%40group.v.calendar.google.com&amp;color=%2323164E&amp;src=nba_18_New%2BYork%2BKnicks%23sports%40group.v.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
   <pre id="content" style="white-space: pre-wrap;"></pre>
 

@@ -33,7 +33,7 @@ module.exports = function(grunt)
 
                 sass: {
                 	options: {
-                		loadPath: ['bower_components/foundation/scss']
+                		loadPath: ['bower_components/foundation-sites/scss']
                 	},
                 	dist: {
                 		options: {

@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "foundation-sites": "^6.5.0"
   }
 }
