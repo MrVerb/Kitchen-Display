@@ -1,3 +1,4 @@
+@import 'settings';
 @import 'foundation';
 
 // Global styles
@@ -54,3 +55,6 @@
 // @include foundation-flex-classes;
 @include foundation-visibility-classes;
 // @include foundation-prototype-classes;
+
+
+@import 'base';

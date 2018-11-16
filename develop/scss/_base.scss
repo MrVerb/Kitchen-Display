@@ -1,5 +1,75 @@
+// Import Google Font
+
+
 // Variables
 
 $header-size: 2em;
 $font-color: #343434;
 $content-width: 1200px;
+
+// Reusable Elements
+
+button {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  height: 42px;
+  width: 136px;
+  border-radius: 21px;
+
+  &.primary {
+    height: 42px;
+    width: 136px;
+    border-radius: 21px;
+    background: linear-gradient(270deg, #867FF6 0%, #AEA9FC 100%);
+    color: white;
+  }
+
+}
+
+
+// Nav styling
+
+nav {
+  padding: 16px 32px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+  position: relative;
+
+  h4 {
+    margin-bottom: 0;
+    @include vertical-center;
+  }
+
+  .primary {
+    float: right;
+
+  }
+
+}
+
+// Main container styling
+
+main {
+  padding: 48px 32px;
+  background-color: #F0F0F2;
+
+  .primary {
+    float: right;
+
+  }
+
+  // Next Event styling
+
+  .next-event {
+    border-radius: 27px;
+    background: linear-gradient(270deg, #BF839C 0%, #8781EA 100%);
+    box-shadow: 2px 2px 12px 2px rgba(134,127,246,0.38);
+    padding: 50px 40px;
+    color: white;
+  }
+
+
+}

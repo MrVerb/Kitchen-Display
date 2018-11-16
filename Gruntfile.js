@@ -1,5 +1,9 @@
+
 module.exports = function(grunt)
 {
+
+        //require("load-grunt-tasks")(grunt); // npm install --save-dev load-grunt-tasks
+
         // -----------------------------------------
         // Start Grunt configuration
         // -----------------------------------------
@@ -90,14 +94,25 @@ module.exports = function(grunt)
                 			'dist/assets/js/script.min.js': ['dist/assets/js/script.js']
                 		}
                 	}
-                }
+                },
+                //
+                // babel: {
+                //   compile: {
+                //     options: {
+                //       sourceMap: true,
+                //       presets: ["@babel/preset-env"],
+                //     },
+                //     files: {
+                //       "dist/assets/js/app.js": "js/app_b.js",
+                //     },
+                //   },
+                // },
 
         });
 
         // -----------------------------------------
         // Load Grunt tasks
         // -----------------------------------------
-
         grunt.loadNpmTasks('grunt-contrib-sass');
         grunt.loadNpmTasks('grunt-contrib-watch');
         grunt.loadNpmTasks('grunt-contrib-uglify');
